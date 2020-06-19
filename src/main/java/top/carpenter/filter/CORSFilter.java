@@ -15,7 +15,7 @@ public class CORSFilter implements Filter {
         httpServletResponse.setHeader("Access-Control-Max-Age", "60");
         httpServletResponse.setHeader("Access-Control-Allow-Headers", "x-requested-with");
         //是否支持cookie跨域
-        httpServletResponse.addHeader("Access-Control-Allow-Credentials", "true");
+       // httpServletResponse.addHeader("Access-Control-Allow-Credentials", "true");
 
         chain.doFilter(request, response);
     }
