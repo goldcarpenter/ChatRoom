@@ -18,7 +18,7 @@ public class CORSFilter implements Filter {
         // httpServletResponse.addHeader("Access-Control-Allow-Credentials", "true");
         chain.doFilter(request, response);
         // 1 本地
-        //
+        // 2 git
     }
 
     @Override
