@@ -17,8 +17,7 @@ public class CORSFilter implements Filter {
         //是否支持cookie跨域
         // httpServletResponse.addHeader("Access-Control-Allow-Credentials", "true");
         chain.doFilter(request, response);
-        // 1 本地
-        //
+
     }
 
     @Override
